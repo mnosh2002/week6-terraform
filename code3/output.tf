@@ -7,3 +7,8 @@ output "my-arn" {
 
   value = aws_lightsail_instance.ms.arn
 }
+
+output "instance_privip" {
+  value = aws_lightsail_instance.ms.private_ip_address
+
+}
